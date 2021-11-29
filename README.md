@@ -1,4 +1,4 @@
-At the beginning of the game, the 3 players and the dealer are dealt 2 cards each. We see both players’
+   At the beginning of the game, the 3 players and the dealer are dealt 2 cards each. We see both players’
 cards but see only 1 of the dealer’s cards. The aim of the game is to have the sum of the card values
 (score) in your hand be 21 (BLACKJACK), or as close to 21 as possible. However, you lose if y ou go
 over 21.
@@ -15,15 +15,15 @@ Finally, if more than one player have the same high score then it’s a tie situ
 single player had the maximum score then that player WINs the game
 The strategy is to increase your score by hitting to get close to 21 (but not over), while also taking into
 consideration what the dealer’s score could be.
-The game can be summarized with the following steps:
-1. Deck creation & initial card draw.
+#The game can be summarized with the following steps:
+##1. Deck creation & initial card draw.
 a. Create deck
 b. Do the initial card draw for the player and the dealer (a total of 4 cards)
 c. Remove drawn cards from the deck
-2. Player’s turn (repeated 3 times for the 3 players)
+##2. Player’s turn (repeated 3 times for the 3 players)
 a. Hit or Stand
 b. Update the player’s score.
-3. Dealer’s turn
+##3. Dealer’s turn
 a. Hit until he either scores 21 (BLACKJACK), a score more than the maximum score of the 3 players
 or bust.
-4. Make decisions(someone WINS or it’s a PUSH) and end the game.
+##4. Make decisions(someone WINS or it’s a PUSH) and end the game.
